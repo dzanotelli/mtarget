@@ -1127,4 +1127,5 @@ void free_shot_list(struct shot_item* last)
         struct shot_item* this = last;
         while (this = last->prev)
                 free(this->next);
+        free(this);
 }
