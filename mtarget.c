@@ -18,6 +18,8 @@
 #include <stdlib.h>
 #include <math.h>
 #include <string.h>
+#include <ctype.h>
+#include <time.h>
 #include <ncurses.h> /* may also autoinclude tremios.h or tremio.h or sftty.h */
 
 #define mtLINES 24   /* workspace defined as 24 lines x 80 cols*/
